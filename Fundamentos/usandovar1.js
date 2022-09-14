@@ -6,7 +6,7 @@ console.log(sera)
 
 function teste() {
     var local =123
-    console.log(local)
+    console.log(local )
 }
 // na função o escopo só pode ser acessado dentro dele
 
