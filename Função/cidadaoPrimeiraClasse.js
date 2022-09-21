@@ -31,12 +31,15 @@ obj.falar = function () {
 console.log(obj.falar())
 
 //passar um funcao como parametro para outra funcao
-function (fun){
-    fun(){
+/* 
+ *     function (fun){
+ *       fun(){ 
+ *              }
+ *          }
+ */
 
-    }
-}
-function run(){
+
+  function run(){
     console.log("Executando...")
 }
 
