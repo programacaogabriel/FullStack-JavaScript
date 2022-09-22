@@ -1,7 +1,7 @@
 function soma(){
     let soma = 0
     for(i in arguments){                          // se tem uma maneira melhor de fazer em rest
-        soma+=arguments[i]
+        soma+=arguments[i]                      // arguments é um array interno aonde todos os parametros vão estar dentro
     }
     return soma
 }
