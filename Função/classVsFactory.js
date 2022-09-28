@@ -16,7 +16,7 @@ p1.falar()
 
 
 
-const criarPessoa = nome =>{
+const criarPessoa = nome =>{                                   //Esse objeto tem ciencia do contexto lexico que ele foi declarado.
     return{
         falar: ( ) => console.log(`Meu nome é ${nome}`)
     }
