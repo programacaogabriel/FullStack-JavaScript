@@ -4,19 +4,15 @@ Crie uma função que recebe os comprimentos dos três lados de um triângulo e 
 ao tamanho de seus lados. (Neste exemplo deve-se abstrair as condições matemáticas de existência de um
 triângulo).*/
 
-function calcularAreaTriangulo(a,b,c){
-    if(a==b & b==c){
+function calcularAreaTriangulo(a, b, c) {
+    if (a == b & b == c & c == a) {
         console.log(`Temos um triangulo equilátero aonde todos os dados são iguais`)
-    }if (a==b || b==c || c==a) {
+    } else if ((a == b || b == c || c == a)) {
         console.log(`Temos um triangulo esosceles aonde aonde 2 lados são iguais`)
-    } if(a!=b & b!=c & c!=a){
+    } else if (a != b & b != c & c != a) {
         console.log(`Temos um triangulo escaleno aonde todos os lados são diferentes`)
-    }else{
+    } else {
         console.log("Erro")
     }
-        
-    }
-
-    triangulo = calcularAreaTriangulo(10,10,10)
-
-    console.log(triangulo(10,10,10))
+}
+calcularAreaTriangulo(0, 0, 10)
