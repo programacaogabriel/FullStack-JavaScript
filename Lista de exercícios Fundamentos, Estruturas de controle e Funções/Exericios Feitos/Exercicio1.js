@@ -5,12 +5,10 @@
 
 function calc(a,b){
     
-    console.log(`Soma ${a+b}`)
-    console.log(`Divisao ${a/b}`)
-    console.log(`Multiplicacao ${a*b}`)
-    console.log(`Subtração ${a-b}`)
+    console.log(`Soma`, a+b)
+    console.log(`Divisao`,a/b)
+    console.log(`Multiplicacao`, a*b)
+    console.log(`Subtração`,a-b)
 }
 
-calcular = calc(10,2)
-
-console.log(calcular(10,2))
+calc(1,2)
