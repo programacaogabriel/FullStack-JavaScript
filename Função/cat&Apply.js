@@ -1,5 +1,5 @@
 //this. é uma funcao global
-// diferença é na hora de chamar o call ou apply os parametros
+// diferença é na hora de chamar o call ou apply os são parametros
 
 function getPreco(imposto = 0, moeda = 'R$') {
     return `${moeda} ${this.preco * (1 - this.desc) * (1 + imposto)}`
