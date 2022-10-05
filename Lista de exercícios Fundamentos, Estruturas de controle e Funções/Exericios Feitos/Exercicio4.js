@@ -4,7 +4,8 @@ e o resto da divisão destes dois valores.*/
 const { abort } = require("process");
 
 function dividendoDivisor(a, b) {
-    return a % b
+    console.log('Resultado:', Math.floor(a/b))
+    console.log('Resto:' , a % b)
 }
 
-console.log(dividendoDivisor(10,3))
+dividendoDivisor(10,3)
