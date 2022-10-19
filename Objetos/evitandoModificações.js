@@ -1,4 +1,4 @@
-//Object.preventExtensions   poderá excluir mas não poderá adicionar
+//Object.preventExtensions   poderá modificar, excluir mas não poderá adicionar
 
 const produto = Object.preventExtensions({
     nome: 'Qualquer', preco: 1.99, tag: 'promoção'
