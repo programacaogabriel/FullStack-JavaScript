@@ -29,5 +29,5 @@ console.log(Object.keys(filha2))
 //Oportunidade de verificar se uma determinada propriedade pertense ou não a um objeto
 for(let key in filha2){
     filha2.hasOwnProperty(key)?
-        console.log(key): console.log(`Por heraça: ${key}`)
+    console.log(key): console.log(`Por heraça: ${key}`)
 }
